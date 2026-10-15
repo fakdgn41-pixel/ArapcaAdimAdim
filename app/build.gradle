@@ -1,0 +1,8 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'com.arapcaadimadim.egitim'
+ compileSdk 35
+ defaultConfig { applicationId 'com.arapcaadimadim.egitim'; minSdk 23; targetSdk 35; versionCode 4; versionName '0.4' }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+dependencies { implementation 'androidx.webkit:webkit:1.12.1' }
